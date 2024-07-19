@@ -2,12 +2,12 @@ name: ui_ball
 description: "Free, open-source loaders and spinners for your next project."
 homepage: https://github.com/matifdeveloper/ui_ball
 repository: https://github.com/matifdeveloper/ui_ball
-version: 0.0.2
+version: 0.0.3
 flutter_animation_plus:
   path: ../ui_ball
 
 environment:
-  sdk: '>=3.4.4 <4.0.0'
+  sdk: '>=3.4.3 <4.0.0'
   flutter: ">=1.17.0"
 
 dependencies:
@@ -17,7 +17,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^3.0.0
+  flutter_lints: ^4.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
