@@ -50,7 +50,8 @@ class OscillatingBars extends StatefulWidget {
 }
 
 /// The state class for the `OscillatingBars` widget.
-class _OscillatingBarsState extends State<OscillatingBars> with SingleTickerProviderStateMixin {
+class _OscillatingBarsState extends State<OscillatingBars>
+    with SingleTickerProviderStateMixin {
   late AnimationController _controller;
 
   /// Initializes the animation controller.

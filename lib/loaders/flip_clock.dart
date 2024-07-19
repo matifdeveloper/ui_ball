@@ -59,7 +59,8 @@ class FlipClock extends StatefulWidget {
   State<FlipClock> createState() => _FlipClockState();
 }
 
-class _FlipClockState extends State<FlipClock> with SingleTickerProviderStateMixin {
+class _FlipClockState extends State<FlipClock>
+    with SingleTickerProviderStateMixin {
   late AnimationController _controller;
 
   @override

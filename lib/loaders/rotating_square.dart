@@ -52,7 +52,8 @@ class RotatingSquare extends StatefulWidget {
 }
 
 /// The state of the [RotatingSquare] widget.
-class _RotatingSquareState extends State<RotatingSquare> with SingleTickerProviderStateMixin {
+class _RotatingSquareState extends State<RotatingSquare>
+    with SingleTickerProviderStateMixin {
   late AnimationController _controller;
 
   /// Initializes the state of the widget.

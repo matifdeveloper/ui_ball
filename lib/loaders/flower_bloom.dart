@@ -23,16 +23,11 @@ import 'dart:math';
 /// Example usage:
 ///
 /// ```dart
-/// class MyWidget extends StatelessWidget {
-///   @override
-///   Widget build(BuildContext context) {
-///     return FlowerBloom(
+/// FlowerBloom(
 ///       color: Colors.pink,
 ///       size: 100.0,
 ///       duration: const Duration(seconds: 3),
 ///     );
-///   }
-/// }
 /// ```
 
 /// A widget that displays a blooming flower animation.
@@ -61,7 +56,8 @@ class FlowerBloom extends StatefulWidget {
   State<FlowerBloom> createState() => _FlowerBloomState();
 }
 
-class _FlowerBloomState extends State<FlowerBloom> with SingleTickerProviderStateMixin {
+class _FlowerBloomState extends State<FlowerBloom>
+    with SingleTickerProviderStateMixin {
   late AnimationController _controller;
   late Animation<double> _bloomAnimation;
 

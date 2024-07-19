@@ -23,7 +23,7 @@ import 'package:flutter/material.dart';
 ///
 /// Example:
 /// ```dart
-/// Ring(
+/// Ring1(
 ///   color: Colors.blue,
 ///   size: 50.0,
 ///   duration: Duration(seconds: 2),
@@ -94,14 +94,6 @@ class _Ring1State extends State<Ring1> with SingleTickerProviderStateMixin {
 }
 
 /// A custom painter for drawing a ring.
-///
-/// Example:
-/// ```dart
-/// RingPainter(
-///   color: Colors.red,
-///   progress: 0.5,
-/// )
-/// ```
 class Ring1Painter extends CustomPainter {
   /// The color of the ring.
   final Color color;

@@ -53,7 +53,8 @@ class BouncingDot extends StatefulWidget {
   State<BouncingDot> createState() => _BouncingDotState();
 }
 
-class _BouncingDotState extends State<BouncingDot> with SingleTickerProviderStateMixin {
+class _BouncingDotState extends State<BouncingDot>
+    with SingleTickerProviderStateMixin {
   late AnimationController _controller;
   late Animation<double> _animation;
 
