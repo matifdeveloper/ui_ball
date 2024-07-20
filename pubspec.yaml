@@ -2,7 +2,7 @@ name: ui_ball
 description: "Free, open-source loaders and spinners for your next project."
 homepage: https://github.com/matifdeveloper/ui_ball
 repository: https://github.com/matifdeveloper/ui_ball
-version: 0.0.3
+version: 0.0.4
 flutter_animation_plus:
   path: ../ui_ball
 
