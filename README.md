@@ -18,6 +18,9 @@ Import the package into your Dart file:
 
 `import 'package:ui_ball/ui_ball.dart';`
 
+### Demo
+https://github.com/user-attachments/assets/a0e56ca3-c3a2-429f-857f-35dde7055674
+
 ### Loaders and Spinners
 Here are some examples of loaders and spinners available in the ui_ball package:
 
